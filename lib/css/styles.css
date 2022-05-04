@@ -15,7 +15,7 @@ main {
     padding: 0px 0px;
     display: flex;
     flex-direction: column;
-    
+
 }
 
 .head-section {
@@ -44,7 +44,7 @@ main {
 
 .content-section-left-head {
     display: flex;
-    flex:0 0 35%;
+    flex: 0 0 35%;
     justify-content: center;
     align-items: center;
     background-color: rgb(240, 240, 240);
@@ -54,7 +54,7 @@ main {
 
 .content-section-right-head {
     display: flex;
-    flex:0 0 65%;
+    flex: 0 0 65%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -76,16 +76,16 @@ main {
 
 .content-head-person-wrapper {
     width: 90%;
-    flex:0 1 55%;
+    flex: 0 1 64%;
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2%;
+    margin: 3%;
 }
 
-.content-head-contacts {
-    flex:0 0 25%;
+.content-head-contacts-wrapper {
+    flex: 1 0 30%;
     width: 90%;
     font-size: small;
     display: flex;
@@ -93,7 +93,7 @@ main {
     justify-content: space-around;
 }
 
-.content-head-contacts-in {
+.content-head-contacts {
     height: 75%;
 
     display: flex;
@@ -192,6 +192,7 @@ h3 {
 h4 {
     font-weight: bold;
 }
+
 h5 {
     font-weight: bold;
     font-size: 13px;
