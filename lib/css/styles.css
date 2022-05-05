@@ -35,12 +35,14 @@ main {
 .content-head-person>h1 {
     font-weight: bold;
     font-size: calc(1em + 2vw);
+    margin-top: 0.2rem;
 }
 
 .content-head-person>h3 {
     font-weight: normal;
     font-size: 16px;
     padding-top: 5%;
+    margin-bottom: 0.2rem;
 }
 
 .content-section-left-head {
@@ -50,6 +52,7 @@ main {
     align-items: center;
     background-color: rgb(240, 240, 240);
     background-image: repeating-linear-gradient(-45deg, transparent, transparent 2px, rgba(255, 255, 255) 2px, rgba(255, 255, 255) 10px);
+    min-width: 7rem;
     /* background-color: blue; */
 }
 
@@ -130,6 +133,7 @@ a {
     width: 60%;
 
     border-radius: 50%;
+    margin: 3%;
     /* Радиус скругления */
     /*border: 3px solid green; /* Параметры рамки */
     /*box-shadow: 0 0 7px #666; /* Параметры тени */
@@ -147,11 +151,12 @@ a {
 }
 
 .content-section-right {
-    flex: 1 0 calc(57% - 4px);
+    flex: 1 0 calc(57% - 8px);
     /* background-color: green; */
     padding-left: 4%;
     padding-right: 4%;
     padding-bottom: 2rem;
+    border-right: 4px solid rgba(240, 240, 240);
 }
 
 .section-title-wrapper {
